@@ -23,7 +23,7 @@ The registration page generates a long "Device Code" made up of the Processor, M
 While the Windows Forms part of the software has been decompiled and made avalible. 
 The .DLLs are either not C# or have been obfuscated, making it impossible to decompile to source. 
 
-Many functions are within the DLLs including the licencing, machine movement, most if not all the visual algorithms.
+Many functions are within the DLLs are for licencing, machine movement, most if not all the visual algorithms etc.
 That being said. The work done on this Github is not to reverse engineer the code and make the valuable assets avalible to all.
 Only to make it better and easier for those who own the machines to run especialy as it has arbitrary hardware locks.
 
