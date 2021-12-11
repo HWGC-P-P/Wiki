@@ -56,13 +56,19 @@ This is split into the Fast Cam (component camera)/Mark Cam (fiducial camera) an
 
 #### Fast/Mark Cameras
 The actual camera hardware is unkown at this point. 
-The source code sugests that the drivers are for Jinan Jovision PCI 4, 8 and 16 channel PCI DVR capture cards.
-Photos of the internal computer show an PCI-E capture card with an Altera Cyclone® IV FPGA connected to an Nextchip NVP6114 AHD 4 channel CVBS/COMET/AHD1.0 decoder. 
+
+The source code sugests that the drivers are for Jinan Jovision PCI 4, 8 and 16 channel PCI DVR capture cards from around 2007-2011.
+Photos of the internal computer show a PCI-E capture card with an Altera Cyclone® IV FPGA connected to an Nextchip NVP6114 AHD 4 channel CVBS/COMET/AHD1.0 decoder. 
+![image](https://user-images.githubusercontent.com/1049919/145662007-01de9c46-d295-4b6e-b3b4-07f50477d83f.png)
+The Jovision cards use an old Sony package to do the AHD decode and compression but these chips are circa 2007 and are EOL which could explain why these boards are using an FPGA long with a CVBS/COMET/AHD1.0 decoder chip to support backwards compatabilty with older systems/software that uses these drivers. [speculation]
+
+
 
 #### High Res Camera
 Based on the .DLL and source code, we know that the machines are using a CatchBest U3C500M/C USB3 camera for the high resolution camera that takes photos of larger components. 
 
-![1593657963](https://user-images.githubusercontent.com/1049919/145130968-2e516359-f7e9-4860-ac3a-bb014b1cfc29.jpg)
+![image](https://user-images.githubusercontent.com/1049919/145662245-619da54c-31f3-494f-a747-542d75115bed.png)
+
 
 The camera is a CMOS image sensor with a resolution of 2592x1944 and a frame rate of 30 FPS. Though the software only makes use of 1944x1944 pixels for image processing.
 This camera is listed on the manufacture’s website and is still available for purchase via Alibaba and other China based sourcing websites.
