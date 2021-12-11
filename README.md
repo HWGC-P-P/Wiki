@@ -56,7 +56,8 @@ This is split into the Fast Cam (component camera)/Mark Cam (fiducial camera) an
 
 #### Fast/Mark Cameras
 The actual camera hardware is unkown at this point. 
-The source code sugests that the drivers are for Jinan Jovision PCI 4, 8 and 16 channel PCI DVR capture cards but photos of the internal computer suggest that is might not be correct. Waiting on more info.
+The source code sugests that the drivers are for Jinan Jovision PCI 4, 8 and 16 channel PCI DVR capture cards.
+Photos of the internal computer show an PCI-E capture card with an Altera Cyclone® IV FPGA connected to an Nextchip NVP6114 AHD 4 channel CVBS/COMET/AHD1.0 decoder. 
 
 #### High Res Camera
 Based on the .DLL and source code, we know that the machines are using a CatchBest U3C500M/C USB3 camera for the high resolution camera that takes photos of larger components. 
