@@ -1,6 +1,7 @@
 Wiki for the software and hardware running HWGC P&P machines 
 ======
 #### EEVBlog discussion forum: https://www.eevblog.com/forum/manufacture/yx-smt660-smt880-pp-machines/
+#### Discord server: https://discord.gg/FxhdJNVWbB
 
 ## Manufacturing and ordering Details
 These machines are produced by
